@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.benhuan.mycustomcontrol.MainActivity">
 
-    <com.benhuan.mycustomcontrol.CCView2
+    <com.benhuan.mycustomcontrol.CCView1
 
         android:layout_centerInParent="true"
         android:layout_width="400dp"

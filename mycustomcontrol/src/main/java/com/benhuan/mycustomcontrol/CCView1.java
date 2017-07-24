@@ -5,9 +5,11 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.LinearGradient;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.RectF;
+import android.graphics.Shader;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -67,7 +69,9 @@ public class CCView1 extends View {
 
         //drawBitmap(canvas);
 
-        drawText(canvas);
+        //drawText(canvas);
+
+        drawShader(canvas);
 
     }
 
@@ -181,4 +185,19 @@ public class CCView1 extends View {
         canvas.drawText(text,300,200,paint1);
 
     }
+
+    void drawShader(Canvas canvas) {
+
+        Shader shader = new LinearGradient(200,200,400,400,
+                Color.parseColor("#ff000000"),Color.parseColor("#ffffffff"),
+                Shader.TileMode.REPEAT);
+
+        paint1.setShader(shader);
+
+        paint1.setStyle(Paint.Style.FILL);
+
+        canvas.drawCircle(300,300,250,paint1);
+
+    }
+
 }

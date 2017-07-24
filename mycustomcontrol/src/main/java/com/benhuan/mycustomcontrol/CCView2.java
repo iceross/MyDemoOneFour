@@ -55,7 +55,7 @@ public class CCView2 extends View {
 
         Shader shader = new LinearGradient(
                 100,100,500,500, Color.parseColor("#e91e63"),
-                Color.parseColor("#ffffff  "), Shader.TileMode.CLAMP
+                Color.parseColor("#ffffff"), Shader.TileMode.CLAMP
         );
 
         paint.setShader(shader);
