@@ -3,9 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyDemoOneFour.iml" filepath="$PROJECT_DIR$/MyDemoOneFour.iml" />
+      <module fileurl="file://E:\demo\2018\11\MyDemoOneFour\MyDemoOneFour.iml" filepath="E:\demo\2018\11\MyDemoOneFour\MyDemoOneFour.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\demo\2018\11\MyDemoOneFour\app\app.iml" filepath="E:\demo\2018\11\MyDemoOneFour\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/imageloader/imageloader.iml" filepath="$PROJECT_DIR$/imageloader/imageloader.iml" />
+      <module fileurl="file://E:\demo\2018\11\MyDemoOneFour\imageloader\imageloader.iml" filepath="E:\demo\2018\11\MyDemoOneFour\imageloader\imageloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycustomcontrol/mycustomcontrol.iml" filepath="$PROJECT_DIR$/mycustomcontrol/mycustomcontrol.iml" />
+      <module fileurl="file://E:\demo\2018\11\MyDemoOneFour\mycustomcontrol\mycustomcontrol.iml" filepath="E:\demo\2018\11\MyDemoOneFour\mycustomcontrol\mycustomcontrol.iml" />
     </modules>
   </component>
 </project>
